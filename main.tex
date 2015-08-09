@@ -1,0 +1,36 @@
+% HPV Design Report Template
+% Author: nickeyre1@gmail.com
+%
+% This template is intended to be worked on in sub-files so that
+% multiple people can work at once. Compile this file and include
+% links to all of the sub files within it.
+%
+
+% Template Top (Do Not Remove)
+\input{Template/header.tex}
+
+% Cover & Table of Contents & Abstract
+\includepdf[pages=-]{Template/cover.pdf} %Precompile Cover with XeLatex for Custom Fonts
+\clearpage
+\newpage
+\pagenumbering{roman}
+\input{Content/0_Abstract/text}
+\newpage
+\tableofcontents
+\clearpage
+\listoffigures
+\listoftables
+\clearpage
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+\part{Conclusion}
+\section{Section}
+\subsection{Subsection}
+Some Text
+% \input{Content/filename}
+
+% \input{references.tex}
+
+% Template Bottom (Do Not Remove)
+\input{Template/footer.tex}
